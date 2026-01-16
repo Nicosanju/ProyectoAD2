@@ -9,5 +9,8 @@ package model;
  * @author alumno
  */
 public class Genero {
-    
+
+    private int id;
+    private String nombre;
+
 }

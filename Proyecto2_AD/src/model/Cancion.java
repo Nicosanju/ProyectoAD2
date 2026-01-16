@@ -4,10 +4,19 @@
  */
 package model;
 
+import java.util.List;
+
 /**
  *
  * @author alumno
  */
 public class Cancion {
-    
+
+    private int id;
+    private int reproduccionesTotales;
+    private String nombre;
+    private List<Artista> artistas;
+    private String imagen;
+    private Album album;
+    private Genero genero;
 }
