@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS Artistas(
 	Album int NOT NULL,
 	Genero VARCHAR(20) NOT NULL,
 	Nacionalidad VARCHAR(20) NOT NULL,
-	Imagen MEDIUMBLOB,
+	Imagen VARCHAR(200),
 	UNIQUE(ID)
 );
 CREATE TABLE IF NOT EXISTS Cancion(
@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS Cancion(
 	Genero VARCHAR(20) NOT NULL,
 	Reproducciones int NOT NULL,
 	Duracion int NOT NULL,
-	Imagen MEDIUMBLOB,
+	Imagen VARCHAR(200),
 	UNIQUE(ID)
 );
 CREATE TABLE IF NOT EXISTS Album(
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS Album(
 	Reproducciones int NOT NULL,
 	Duracion int NOT NULL,
 	Cantidad_Canciones int NOT NULL,
-	Imagen MEDIUMBLOB,
+	Imagen VARCHAR(200),
 	UNIQUE(ID)
 );
 
