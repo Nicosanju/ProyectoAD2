@@ -53,7 +53,7 @@ INSERT INTO Cancion VALUES(NULL,'Hablamos Mañana','Bad Bunny, Duki, Pablo Chill
 INSERT INTO Cancion VALUES(NULL,'<3','Bad Bunny','YHLQMDLG','Urbano',242451000,157,'src/resources/imagenes/YHLQMDLG.jpg');
 INSERT INTO Cancion VALUES(NULL,'Yonaguni','Bad Bunny','','Urbano',1604310000,206,'src/resources/imagenes/Yonaguni.jpg');
 INSERT INTO Cancion VALUES(NULL,'La canción','Bad Bunny, J Balvin','OASIS','Urbano',2357475000,242,'src/resources/imagenes/LaCancion.jpg');
-INSERT INTO Cancion VALUES(NULL,'Where She Goes?','Bad Bunny','nadie sabe lo que va a pasar mañana','Urbano',932229000,231,'src/resources/imagenes/WhereSheGoes.jpg');
+INSERT INTO Cancion VALUES(NULL,'Where She Goes','Bad Bunny','nadie sabe lo que va a pasar mañana','Urbano',932229000,231,'src/resources/imagenes/WhereSheGoes.jpg');
 INSERT INTO Cancion VALUES(NULL,'Moscow Mule','Bad Bunny','Un Verano Sin Ti','Urbano',1498507000,245,'src/resources/imagenes/MoscowMule.jpg');
 INSERT INTO Cancion VALUES(NULL,'DtMF','Bad Bunny','deBÍ TiRAR MáS FOToS','Urbano',1304984000,237,'src/resources/imagenes/DtMF.jpg');
 INSERT INTO Cancion VALUES(NULL,'KASSANDRA','Quevedo','BUENAS NOCHES','Reggeaton',63413000,183,'src/resources/imagenes/BuenasNoches.jpg');
