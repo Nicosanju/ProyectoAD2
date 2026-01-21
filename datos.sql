@@ -25,6 +25,7 @@ INSERT INTO Cancion VALUES(NULL,'Un Día Más','Duki, YSY A','Ameri','Trap',2284
 INSERT INTO Cancion VALUES(NULL,'Trato de Estar Bien','Duki, Morad','Ameri','Pop',19956000,213,'src/resources/imagenes/Ameri.jpg');
 INSERT INTO Cancion VALUES(NULL,'Wake Up & Bake Up','Duki, Wiz Khalifa, Arcangel','Ameri','Pop',22676000,206,'src/resources/imagenes/Ameri.jpg');
 INSERT INTO Cancion VALUES(NULL,'Constelación','Duki, Lia Kali','Ameri','Pop',34842000,200,'src/resources/imagenes/Ameri.jpg');
+INSERT INTO Cancion VALUES(NULL,'Ameri','Duki','Ameri','Trap',45166000,199,'src/resources/imagenes/Ameri.jpg');
 INSERT INTO Cancion VALUES(NULL,'Malbec','Duki, Bizarap','Desde el fin del Mundo','Trap',252539000,175,'src/resources/imagenes/Malbec.jpg');
 INSERT INTO Cancion VALUES(NULL,'Goteo','Duki','','Trap',386372000,164,'src/resources/imagenes/Goteo.jpg');
 INSERT INTO Cancion VALUES(NULL,'Rockstar','Duki','','Trap',255793000,112,'src/resources/imagenes/Rockstar.jpg');
