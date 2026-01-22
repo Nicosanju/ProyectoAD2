@@ -10,7 +10,7 @@ INSERT INTO Artistas VALUES(NULL,'Eladio Carrion',18222000,27,1,'Trap','Puertorr
 INSERT INTO Artistas VALUES(NULL,'Melendi',8734000,18,1,'Pop','Español','src/resources/imagenes/Melendi.jpeg');
 INSERT INTO Artistas VALUES(NULL,'Nicki Nicole',15784000,15,1,'Pop urbano','Argentina','src/resources/imagenes/NickiNicole.jpeg');
 INSERT INTO Artistas VALUES(NULL,'Mora',19465000,19,1,'Reggaeton','Puertorriqueño','src/resources/imagenes/Mora.jpeg');
-INSERT INTO Artistas VALUES(NULL,'Ed Sheeran',96294000,21,1,'Pop','Britanico','src/resources/imagenes/EdSheeran.jpeg');
+INSERT INTO Artistas VALUES(NULL,'Ed Sheeran',96294000,20,1,'Pop','Britanico','src/resources/imagenes/EdSheeran.jpeg');
 INSERT INTO Artistas VALUES(NULL,'Rels B',24720000,20,1,'Pop','Español','src/resources/imagenes/RelsB.jpeg');
 INSERT INTO Cancion VALUES(NULL,'Leitmotiv','Duki','Ameri','Interludio',8950000,85,'src/resources/imagenes/Ameri.jpg');
 INSERT INTO Cancion VALUES(NULL,'Nueva Era','Duki, Myke Towers','Ameri','Trap',165581000,217,'src/resources/imagenes/Ameri.jpg');
