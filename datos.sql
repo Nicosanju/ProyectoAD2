@@ -79,7 +79,6 @@ INSERT INTO Cancion VALUES(NULL,'La Última','Quevedo','','Reggeaton',59653000,1
 INSERT INTO Cancion VALUES(NULL,'Columbia','Quevedo','','Reggeaton',1083903000,186,'src/resources/imagenes/Columbia.jpg');
 INSERT INTO Cancion VALUES(NULL,'El Tonto','Quevedo, Lola Indigo','','Reggeaton',240631000,188,'src/resources/imagenes/ElTonto.jpg');
 INSERT INTO Cancion VALUES(NULL,'Playa del Inglés','Quevedo, Myke Towers','Donde Quiero Estar','Reggeaton',458513000,237,'src/resources/imagenes/PlayaDelIngles.jpg');
-INSERT INTO Cancion VALUES(NULL,'Mi Nuevo Vicio','Morat','Sobre el Amor y Sus Efectos Secundarios','Pop',133027000,237,'src/resources/imagenes/SobreElAmor.jpg');
 INSERT INTO Cancion VALUES(NULL,'En un Solo Dia','Morat','Sobre el Amor y Sus Efectos Secundarios','Pop',191039000,202,'src/resources/imagenes/SobreElAmor.jpg');
 INSERT INTO Cancion VALUES(NULL,'Aprender a quererte','Morat','Sobre el Amor y Sus Efectos Secundarios','Pop',354471000,229,'src/resources/imagenes/SobreElAmor.jpg');
 INSERT INTO Cancion VALUES(NULL,'Yo mas te adoro','Morat','Sobre el Amor y Sus Efectos Secundarios','Pop',55247000,202,'src/resources/imagenes/SobreElAmor.jpg');
