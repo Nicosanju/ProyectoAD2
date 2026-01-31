@@ -12,7 +12,7 @@
     - [Tabla Usuario](#tabla-usuario)
   - [Estructura](#estructura)
   - [Metodología](#metodología)
-  - [Configuracion de Maven](#configuración-de-maven)
+  - [Configuracion de Ant](#configuración-de-ant)
   - [Ejecución del proyecto](#ejecución-del-proyecto)
   - [Manejo de errores](#manejo-de-errores)
 - [Manual de usuario](#manual-de-usuario)
@@ -102,7 +102,27 @@ El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
 
 #### Uso de Git
 
-### Configuración de Maven
+El proyecto utiliza la metodología de desarrollo incremental basado en ramas, lo cual da una gran acilidad a la hora de la gestión de versiones y el trabajo en equipo de todos los desarrolladores.
+Las rama base en este caso sería 'main' y las ramas que se utilizaron para el desarrollo fueron 2 con los nombres de los desarrolladores en este caso 'Nico' y 'Iago' donde cada uno trabajaba en ella independientemente.
+
+Flujo de trabajo:
+
+1. **Añadir funcionalidad:** cuando se quiere crear una nueva funcionalidad, se avisa al equipo y se trabaja en la propia rama para implementarla sabiendo de antemano que no va a pisar nada de lo que otro desarrollador este trabajando en otra rama.
+2. **Testear:** Cuando se completa la nueva funcionalidad se realizan las pruebas pertinentes para asegurar que funciona correctamente y no rompe nada del resto del proyecto.
+3. **Merge a Developer:** Al haber testeado las nuevas funcionalidades y ser exitosas, se realiza un mergeo de la rama a developer. Es importante este paso dado que todo lo que vaya a esta rama debera de ir  con los menos problemas posibles a la hora de mergear con el resto de desarrolladores.
+4. **Merge a Main:** Para finalizar cuando las ramas fueron probadas, se realiza el merge a la rama `main`. Al tener todo el proyecto actualizado en el main dariamos paso a una nueva version del proyecto final.
+
+Gracias a este flujo de trabajo nos permite trabajar varios desarrolladores simultaneamente cada 1 con funciones diferentes y poder integrar todos los cambios a la vez, testeandolo todo al mismo tiempo y corregir errores que puedan salir al mergear.
+
+
+### Configuración de Ant
+  
+  **mysql-connector-j-8.1.0.jar:**:Se utiliza para poder conectarse  así a la base de datos que   tengamos creada.
+  Para poder añadirlo correctamente tendríamos que seguir estos pasos:
+    1.Abrir el proyecto
+    2.Hacer click derecho en "Libraries"
+    3.Darle a ADD JAR/Folder 
+    4.Seleccionar el conector en cuestión
 
 ### Ejecución del proyecto
 
