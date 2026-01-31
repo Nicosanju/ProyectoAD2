@@ -107,11 +107,11 @@ El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
 ### Ejecución del proyecto
 
 ### Manejo de errores
-
+Para este proyecto hemos usado los try catch para controlar las posibles excepciones que puedan salir en el manejo de la aplicación.
 ## Manual de usuario
 [Volver al índice](#índice)
 ### Registro
-
+Al abrir la aplicación, el usuario en cuestión verá la siguiente pantalla :
 ### Busquedas
 
 ### Otras opciones (Borrar y añadir canción)
