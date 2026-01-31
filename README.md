@@ -19,15 +19,23 @@
 - [Autores](#autores)
 
 ## Introducción
+Este proyecto tratará sobre una aplicación donde intentaremos recrear(en la medida de lo posible) lo que es spotify hoy en día.
+Con ello n
+    
+
 [Volver al índice](#índice)
 ## Manual técnico para desarrolladores
 ### Requisitos previos
 - **Java SE 17 o superior:** El proyecto se ha desarrollado usando la version 17 de Java, lo cual se requiere usar la misma version o superior
 - **Maven:** La gestión de las dependencias se hace con Maven, lo cual se deberá tener Maven instalado.
 - **IDE Recomendado:** Para este proyecto se ha usado Apache NetBeans como IDE pero se puede usar cualquiera que soporte el lenguaje de Java.
+- **MySQL:** El proyecto utiliza MySQL como sistema de gestión de bases de datos, por lo que deberás instalarlo. (descargar)
 ### Estructura
 El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
-
+| Encabezado 1 | Encabezado 2 |
+| --- | --- |
+| Fila 1, Col 1 | Fila 1, Col 2 |
+| Fila 2, Col 1 | Fila 2, Col 2 |
 #### Modelo
 
 #### Vista
