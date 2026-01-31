@@ -3,22 +3,22 @@
 ## Índice
 - [Introducción](#introducción)
 - [Manual técnico para desarrolladores](#manual-técnico-para-desarrolladores)
-    - [Requisitos previos](#requisitos-previos)
-    - [Base de Datos. Modelo Entidad-Relacion](#base-de-datos)
-          - [Tabla Artistas](#tabla-artistas)
-          - [Tabla Cancion](#tabla-cancion)
-          - [Tabla Álbum](#tabla-álbum)
-          - [Tabla Género](#tabla-género)
-          - [Tabla Usuario](#tabla-usuario)
-    - [Estructura](#estructura)
-    - [Metodología](#metodología)
-    - [Configuración de Maven](#configuración-de-maven)
-    - [Ejecución del proyecto](#ejecución-del-proyecto)
-    - [Manejo de errores](#manejo-de-errores)
+  - [Requisitos previos](#requisitos-previos)
+  - [Base de Datos. Modelo Entidad-Relación](#base-de-datos-modelo-entidad-relación)
+    - [Tabla Artistas](#tabla-artistas)
+    - [Tabla Canción](#tabla-canción)
+    - [Tabla Álbum](#tabla-álbum)
+    - [Tabla Género](#tabla-género)
+    - [Tabla Usuario](#tabla-usuario)
+  - [Estructura](#estructura)
+  - [Metodología](#metodología)
+  - [Configuracion de Maven](#configuración-de-maven)
+  - [Ejecución del proyecto](#ejecución-del-proyecto)
+  - [Manejo de errores](#manejo-de-errores)
 - [Manual de usuario](#manual-de-usuario)
-    - [Registro](#registro)
-    - [Busquedas](#busquedas)
-    - [Otras opciones (Borrar y añadir canción)](#otras-opciones-borrar-y-añadir-canción)
+  - [Registro](#registro)
+  - [Busquedas](#busquedas)
+  - [Otras opciones (Borrar y añadir canción)](#otras-opciones-borrar-y-añadir-canción)
 - [Reparto de tareas](#reparto-de-tareas)
 - [Mejoras](#mejoras)
 - [Conclusiones](#conclusiones)
@@ -37,7 +37,7 @@ Con ello n
 - **IDE Recomendado:** Para este proyecto se ha usado Apache NetBeans como IDE pero se puede usar cualquiera que soporte el lenguaje de Java.
 - **MySQL:** El proyecto utiliza MySQL como sistema de gestión de bases de datos, por lo que deberás instalarlo. (descargar)
 
-### Base de Datos. Modelo Entidad-Relacion
+### Base de Datos. Modelo Entidad-Relación
 
 #### Tabla Artistas
 | Encabezado 1 | Encabezado 2 |
@@ -82,4 +82,4 @@ El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
 [Volver al índice](#índice)
 ## Conclusiones
 [Volver al índice](#índice)
-
+## Autores
