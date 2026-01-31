@@ -44,7 +44,10 @@ Con ello n
 | --- | --- |
 | Fila 1, Col 1 | Fila 1, Col 2 |
 | Fila 2, Col 1 | Fila 2, Col 2 |
-
+#### Tabla Canción
+#### Tabla Álbum
+#### Tabla Género
+#### Tabla Usuario
 
 ### Estructura
 El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
