@@ -40,14 +40,54 @@ Con ello n
 ### Base de Datos. Modelo Entidad-Relación
 
 #### Tabla Artistas
-| Encabezado 1 | Encabezado 2 |
-| --- | --- |
-| Fila 1, Col 1 | Fila 1, Col 2 |
-| Fila 2, Col 1 | Fila 2, Col 2 |
+| Campo          | Tipo de dato | Descripción                                   |
+|----------------|--------------|-----------------------------------------------|             
+| ID             | INT (PK)     | Identificador único del artista               |
+| Nombre         | VARCHAR(20)  | Nombre del artista                            |
+| Reproducciones | DOUBLE       | Reproducciones mensuales del artista          |
+| Cancion        | INT          | Nombre de la canción                          |
+| Album          | VARCHAR(80)  | Nombre del álbum al cual pertenece la canción |
+| Genero         | VARCHAR(20)  | Género de música del artista                  |
+| Nacionalidad   | VARCHAR(20)  | País de origen                                |
+| Imagen         | VARCHAR(200) | Imagen del artista                            |
 #### Tabla Canción
+| Campo          | Tipo de dato | Descripción                          |
+|----------------|--------------|--------------------------------------|
+| ID             | INT (PK)     | Identificador único del artista      |
+| Nombre         | VARCHAR(130) | Nombre de la canción                 |
+| Reproducciones | DOUBLE       | Total de reproducciones de la canción|
+| Album          | VARCHAR(80)  | Nombre del álbum                     |
+| Genero         | VARCHAR(20)  | Género de música de la canción       |
+| Artistas       | VARCHAR(130) | Artistas que participan en la canción|
+| Imagen         | VARCHAR(200) | Imagen de la canción                 |
+| Duración       | INT          | Duración total de la  canción        |
 #### Tabla Álbum
+| Campo             | Tipo de dato  | Descripción                        |
+|----------------   |-------------- |---------------------------------   |
+| ID                | INT (PK)      | Identificador único del artista    |
+| Nombre            | VARCHAR(80)   | Nombre del álbum                   |
+| Reproducciones    | DOUBLE        | Total de reproducciones del álbum  |
+| Canciones         | VARCHAR(2000) | Canciones que componen el álbum    |
+| Artistas          | VARCHAR(130)  | Artistas que participan en el álbum|
+| Genero            | VARCHAR(20)   | Género de música del album         |
+| Cantidad_Canciones| INT           | Cantidad de canciones del álbum    |
+| Imagen            | VARCHAR(200)  | Imagen del álbum                   |
+| Duración          | INT           | Duración total del álbum           |
 #### Tabla Género
+
+| Campo  | Tipo de dato | Descripción                                      |
+|------- |--------------|--------------------------------------------------|
+| ID     | INT (PK)     | Identificador único del género musical           |
+| Nombre | VARCHAR(20)  | Nombre del género musical                        |
+
 #### Tabla Usuario
+| Campo          | Tipo de dato | Descripción                     |
+|----------------|--------------|---------------------------------|
+| ID             | INT (PK)     | Identificador único del artista |
+| Nombre         | VARCHAR(50) | Nombre de usuario               |
+| Contraseña     | VARCHAR(30)  | Contraseña del usuario          |
+| masReproducido | VARCHAR(30)  | Artista favorito                |
+
 
 ### Estructura
 El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
