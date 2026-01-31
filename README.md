@@ -4,6 +4,12 @@
 - [Introducción](#introducción)
 - [Manual técnico para desarrolladores](#manual-técnico-para-desarrolladores)
     - [Requisitos previos](#requisitos-previos)
+    - [Base de Datos. Modelo Entidad-Relacion](#base-de-datos)
+          -[Tabla Artistas](#tabla-artistas)
+          -[Tabla Cancion](#tabla-cancion)
+          -[Tabla Álbum](#tabla-álbum)
+          -[Tabla Género](#tabla-género)
+          -[Tabla Usuario](#tabla-usuario)
     - [Estructura](#estructura)
     - [Metodología](#metodología)
     - [Configuración de Maven](#configuración-de-maven)
@@ -12,7 +18,7 @@
 - [Manual de usuario](#manual-de-usuario)
     - [Registro](#registro)
     - [Busquedas](#busquedas)
-    - [Otras opciones (Borrar y añadir canción)](#otras-opciones-crear-personaje-nuevo)
+    - [Otras opciones (Borrar y añadir canción)](#otras-opciones-borrar-y-añadir-canción)
 - [Reparto de tareas](#reparto-de-tareas)
 - [Mejoras](#mejoras)
 - [Conclusiones](#conclusiones)
@@ -30,12 +36,19 @@ Con ello n
 - **Maven:** La gestión de las dependencias se hace con Maven, lo cual se deberá tener Maven instalado.
 - **IDE Recomendado:** Para este proyecto se ha usado Apache NetBeans como IDE pero se puede usar cualquiera que soporte el lenguaje de Java.
 - **MySQL:** El proyecto utiliza MySQL como sistema de gestión de bases de datos, por lo que deberás instalarlo. (descargar)
-### Estructura
-El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
+
+### Base de Datos. Modelo Entidad-Relacion
+
+#### Tabla Artistas
 | Encabezado 1 | Encabezado 2 |
 | --- | --- |
 | Fila 1, Col 1 | Fila 1, Col 2 |
 | Fila 2, Col 1 | Fila 2, Col 2 |
+
+
+### Estructura
+El proyecto está planteado segun la estructura Modelo, Vista, Controlador.
+
 #### Modelo
 
 #### Vista
