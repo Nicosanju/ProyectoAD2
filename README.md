@@ -108,7 +108,7 @@ Las rama base en este caso sería 'main' y las ramas que se utilizaron para el d
 Flujo de trabajo:
 
 1. **Añadir funcionalidad:** cuando se quiere crear una nueva funcionalidad, se avisa al equipo y se trabaja en la propia rama para implementarla sabiendo de antemano que no va a pisar nada de lo que otro desarrollador este trabajando en otra rama.
-2. **Testear:** Cuando se completa la nueva funcionalidad se realizan las pruebas pertinentes para asegurar que funciona correctamente y no rompe nada del resto del proyecto.
+2. **Testear:** Cuando se completa una nueva funcionalidad se realizan las pruebas pertinentes para asegurar que funciona correctamente y no rompe nada del resto del proyecto.
 3. **Merge a Developer:** Al haber testeado las nuevas funcionalidades y ser exitosas, se realiza un mergeo de la rama a developer. Es importante este paso dado que todo lo que vaya a esta rama debera de ir  con los menos problemas posibles a la hora de mergear con el resto de desarrolladores.
 4. **Merge a Main:** Para finalizar cuando la rama `developer` fue probada y es una version estable y sin errores, se realiza el merge a la rama `main`. Al tener todo el proyecto actualizado en el main dariamos paso a una nueva version del proyecto final.
 
@@ -125,7 +125,12 @@ Gracias a este flujo de trabajo nos permite trabajar varios desarrolladores simu
     4.Seleccionar el conector en cuestión
 
 ### Ejecución del proyecto
-
+**Desde el IDE(Apache NetBeans):**
+  
+  1.Importar el proyecto como un proyecto Ant.
+  2.Asegurarse de de que el mysql-connector-j-8.1.0.jar este ya implementado en las librerias.
+  3.Ejecutar el método bien para poder iniciar la aplicación
+  
 ### Manejo de errores
 Para este proyecto hemos usado los try catch para controlar las posibles excepciones que puedan salir en el manejo de la aplicación.
 ## Manual de usuario
